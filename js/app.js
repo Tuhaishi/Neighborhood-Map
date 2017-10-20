@@ -54,7 +54,7 @@ function initMap() {
 
     // iterates through all locations and drop pins on every single location
     for (j = 0; j < locationsSA.length; j++) {
-        (function () {
+        
             // store title and location iteration in variables
             var title = locationsSA[j].title;
             var location = locationsSA[j].location;
@@ -143,7 +143,7 @@ function initMap() {
                 }
             });
 
-        })(j);
+        (j);
 
     } // end of for loop through markers [j]
 }
