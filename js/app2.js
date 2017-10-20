@@ -21,6 +21,18 @@ var locationsSA = [{
             lat: 26.3593123,
             lng: 50.188556
         }
+        }, {
+        title: 'GODIVA',
+        location: {
+            lat: 26.3031498,
+            lng: 50.2225463
+        }
+        },{
+        title: 'Al Ennabi Grill',
+        location: {
+            lat: 26.2951501,
+            lng: 50.2148455
+        }
         },
     {
         title: 'Sunset Beach',
