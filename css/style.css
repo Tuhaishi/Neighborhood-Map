@@ -1,0 +1,116 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1;
+
+}
+
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+
+#map {
+    height: 100%;
+    background-color: #222;
+    color: #fff;
+}
+
+.nav-bar {
+    background-color: #ecf0f1;
+}
+
+.main-title {
+    margin-left: 50px;
+    line-height: 40px;
+}
+
+#search-input {
+    margin: 10px 0px 20px 35px;
+    padding: 10px 10px 5px 10px;
+}
+
+.places {
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.places:hover {
+    background-color: #42A5F5;
+    display: inline;
+    padding: 10px 5px;
+    border-radius: 3px;
+}
+
+#sf {
+    margin-left: 5px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+#hk {
+    margin-left: 35px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.title {
+    color: black;
+}
+
+.name,
+.category,
+.address,
+.information {
+    font-family: "Helvetica-neue", sans-serif;
+    color: #000;
+    font-weight: bold;
+}
+
+.info {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #333;
+    font-weight: normal;
+}
+
+/* MEDIA QUERY FOR MOBILE */
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        margin-bottom: 0px;
+    }
+
+    .main-title {
+        margin-top: 25px;
+        margin-left: 0px;
+        line-height: 0px;
+    }
+
+    #search-input {
+        margin: 11px 21px 0px 0px;
+        padding: 10px 80px 5px 10px;
+    }
+
+    #hk {
+        margin-left: 0px;
+        margin-bottom: 15px;
+        letter-spacing: 0.5px;
+    }
+
+    .buttons {
+        margin-top: 15px;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    #map {
+        height: 100%;
+        background-color: #222;
+        color: #fff;
+    }
+    .nav-bar {
+        background-color: #ecf0f1;
+        width: 50%;
+    }
+}
